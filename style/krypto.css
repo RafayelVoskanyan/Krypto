@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:600px) {
+    * {
+        padding: 0;
+    }
+    #bul {
+        font-size: 40px;
+    }
+    #VIEW-OUR-PRICING {
+        width: 100%;
+    }
+    #buy-button {
+        width: 40%;
+    }
+    #sell-button {
+        width: 40%;
+    }
+    #DOWNLOAD-ON-IOS {
+        width: 100%;
+    }
+    #other17 {
+        width: 100%;
+        height: 100%;
+    }
+    .are-you-ready {
+        height: auto;
+    }
+
+}
+@media screen and (max-width:1068px) {
+    section-1 {
+        flex-wrap: wrap;
+    }
+    section-3 {
+        flex-wrap: wrap;
+    }
+    section-4 {
+        flex-wrap: wrap;
+    }
+    #other18 {
+        width: 100%;
+        height: 100%;
+    }
+    footer {
+        flex-wrap: wrap;
+    }
+}
+
+body {
+    background-color: #000235;
+}
+
+header nav div h3 {
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section-1 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+section-1 .left {
+    margin-top: 70px;
+    color: white;
+}
+
+section-1 .left h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 67px;
+}
+
+section-1 .right img {
+    height: 500px;
+    overflow: hidden;
+}
+
+section-1 .right {
+    overflow: hidden;
+}
+
+section-1 .left .buy-button,
+.sell-button {
+    margin-top: 30px;
+    width: 22%;
+    height: 50px;
+    border-radius: 50px;
+}
+
+section-1 .left .buy-button {
+    background-color: #9090DC;
+    color: white;
+    transition: 0.5s;
+}
+
+section-1 .left .sell-button {
+    border: 1px solid #97D5D5;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    transition: 0.5s;
+}
+
+section-1 .left .buy-button:hover {
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.141);
+    color: #9090DC;
+}
+
+section-1 .left .buy-button:active {
+    transition: 0.5s;
+    border: 1px dotted #9090DC;
+    background-color: rgba(255, 255, 255, 0.141);
+    color: #9090DC;
+}
+
+section-1 .left .sell-button:hover {
+    transition: 0.5s;
+    background-color: #97d5d530;
+    border: 0px solid black;
+    color: #97D5D5;
+}
+
+section-1 .left .sell-button:active {
+    transition: 0.5s;
+    background-color: #97d5d530;
+    border: 1px dotted #97D5D5;
+    color: #97D5D5;
+}
+section-2 h3 {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+.sponsors {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #6458bd1c;
+    border-radius: 11px;
+}
+section-2 {
+    margin-top: 40px;
+    display: grid;
+    justify-content: center;
+
+}
+section-3 {
+    margin-top: 100px;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section-3 .left img {
+    height: 470px;
+}
+
+section-3 .right h1 {
+    font-size: 67px;
+}
+
+section-3 h3 {
+    color: #aad9d9b5;
+}
+
+section-3 .right button {
+    background-color: #9090DC;
+    color: white;
+    transition: 0.5s;
+    margin-top: 10px;
+    width: 26%;
+    height: 50px;
+    border-radius: 50px;
+}
+section-3 .right button:hover {
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.141);
+    color: #9090DC;
+}
+section-3 .right button:active {
+    transition: 0.5s;
+    border: 1px dotted #9090DC;
+    background-color: rgba(255, 255, 255, 0.141);
+    color: #9090DC;
+}
+section-3 .right {
+    width: 54%;
+}
+section-4 h3 {
+    color: #aad9d9b5;
+}
+section-4 .right img {
+    height: 494px;
+}
+section-4 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+section-4 h1 {
+    font-size: 67px;
+}
+section-4 .left {
+    width: 55%;
+}
+section-4 button {
+    background-color: #9090DC;
+    color: white;
+    transition: 0.5s;
+    margin-top: 10px;
+    width: 26%;
+    height: 50px;
+    border-radius: 50px;
+}
+section-4 button:hover {
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.141);
+    color: #9090DC;
+}
+section-4 button:active {
+    transition: 0.5s;
+    border: 1px dotted #9090DC;
+    background-color: rgba(255, 255, 255, 0.141);
+    color: #9090DC;
+}
+section-5 {
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+section-5 .top h3 {
+    color: #aad9d9b5;
+    text-align: center;
+}
+section-5 .top {
+    text-align: center;
+}
+section-5 h1 {
+    font-size: 67px;
+}
+section-5 .bottom .olivia-cole-1 img ,.olivia-cole-2 img,.olivia-cole-3 img {
+    height: 90px;
+}
+section-5 .bottom {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+section-5 .bottom .olivia-cole-1,.olivia-cole-2,.olivia-cole-3   {
+    width: 23%;
+    text-align: center;
+    background-color: #6458bd1c;
+    border-radius: 20px;
+}
+section-6 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.are-you-ready {
+    width: 100%;
+    height: 55vh;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background-image: -o-linear-gradient();
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    background-image: linear-gradient(to top left, #AAD9D9 ,#9090DC ,  #7D7DDC);
+    border-radius: 34px;
+}
+#get-started {
+    background-color: #1c1c1fe1;
+    color: white;
+    transition: 0.5s;
+    margin-left: 40%;
+    width: 30%;
+    height: 50px;
+    border-radius: 50px;
+}
+#get-started:hover {
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.462);
+    color: #9090DC;
+}
+
+#get-started:active {
+    transition: 0.5s;
+    border: 3px dotted #9090DC;
+    background-color: rgba(255, 255, 255, 0.141);
+    color: #4a4ad5;
+}
+section-6 h3 {
+   margin-top: 50px;
+    color: #aad9d9b5;
+}
+section-6 h1 {
+    font-size: 67px;
+}
+footer {
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+footer ul {
+    list-style-type: none;
+}
+footer ul li {
+    margin-top: 5px;
+}
